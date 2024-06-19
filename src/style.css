@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -10em;
+}
+
+
+h1 {
+    
+    color: #5d13de;
+    padding: 1em;
+    width: 9em;
+    text-align: center;
+    font-size: 6em;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    
+}
+
+h1:hover{
+    text-shadow: 0 0 10px #fff8;
+}
+
+
+
+body {
+    background-image: url('https://wallpapercave.com/wp/wp3964454.png');
+    background-color: #d9d9d9; /* Color de respaldo si la imagen no se carga */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
