@@ -6,10 +6,22 @@ export const renderItems = (data) => {
 
   
   let uls=data.map(campeona => {
-    let elemento =document.createElement("ul")
+    let elemento= document.createElement("ul")
     for (let propiedad in campeona){
-      let liElementos=document.createElement("li")
-      liElementos.textContent=propiedad + ": " + campeona[propiedad]
+      let liElementos= document.createElement("li")
+
+      if (propiedad === "imageUrl") {
+        let imgElement = document.createElement("img");
+            imgElement.src = campeona[propiedad];
+            imgElement.alt = campeona.name;
+            imgElement.width = 300
+            imgElement.height = 200
+            liElementos.appendChild(imgElement);
+            
+        } else {
+          liElementos.textContent= propiedad + ": " + campeona[propiedad]
+        }
+      
       elemento.appendChild(liElementos)
 
     }
