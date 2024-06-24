@@ -55,5 +55,14 @@ body {
 
 .tarjetas {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     justify-content: center;
+    
+
+}
+
+ul {
+    width: 40%;
+    list-style-type: none;
 }
