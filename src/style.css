@@ -58,11 +58,36 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     justify-content: center;
-    
-
+    columns: 2;
+   
+   
 }
+
 
 ul {
+    align-content:center;
     width: 40%;
     list-style-type: none;
+    margin: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: transparent;
+    font: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    border: 2px linen #f7f7bf;
+    text-align:left;
+    background-color: rgb(0,0,0,0.5);
+    gap: 32px;
+    transition: transform 0.3s ease-in-out;
+    
+    
 }
+   
+ul :hover{
+    text-shadow: 0 0 10px #fff8;
+}
+
+
+
+
+   
