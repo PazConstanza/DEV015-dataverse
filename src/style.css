@@ -29,7 +29,7 @@ header {
 h1 {
     
     color: #f3f3f3;
-    padding: 1em;
+    padding: 1rem;
     width: 9em;
     text-align: center;
     font-size: 6em;
@@ -44,7 +44,7 @@ h1:hover{
 
 h2 {
     color: #f3f3f3;
-    padding: 1em;
+    padding: 1rem;
     text-align: center;
     font-size: 2em;
     font-family: "Jost", sans-serif;
@@ -56,22 +56,16 @@ h2 {
 .tarjetas {  
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     justify-content: center;
     columns: 2;
-  
     
-   
-}
-
-.imagen{
-    justify-content: center;
+  
 }
 
 
 
 ul {
-    align-content:center;
+    display:flexbox;
     width: 40%;
     list-style-type: none;
     margin: 40px;
@@ -87,24 +81,61 @@ ul {
     transition: transform 0.3s ease-in-out;
     
     
+    
 }
    
+.imagen{
+    float: left;
+}
+
 ul :hover{
     text-shadow: 0 0 10px #fff8;
 }
    
 #elemento1 {
     font-size: 2rem; 
-    padding: 1rem;
+    padding: 0rem;
+    text-align:justify;
+    text-align:center;
+    font-family: baskervville SC;
+    
 }
 
 #elemento2{
-    font-size: 1rem;
+   font-size: 1rem;
    padding: 0px;
+   text-align:justify;
+   text-align:center;
 }
 
 #elemento3{
     font-size: medium;
+    padding: 0.5rem;
+    text-align:justify;
+    text-align:left;
+    font-style: italic;
+    font-family: dancing-script;
+    font-size: 1.3rem;
+}
+
+#elemento4{
+    font-size: medium;
+    padding: 0.5rem;
     text-align: justify;
-    padding: 1rem;
+    text-align:left;
+    font-family: baskervville SC;
+}
+
+#elemento5{
+    font-size: medium;
+    padding: 0.5rem;
+    text-align: justify;
+    text-align:left;
+}
+
+#elemento6{
+    font-size: medium;
+    padding: 0.5rem;
+    text-align: justify;
+    text-align:left;
 }
