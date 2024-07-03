@@ -5,14 +5,26 @@
 
 }
 
+body {
+    background-image: url('https://wallpapercave.com/wp/wp3964454.png');
+    background-color: #d9d9d9; /* Color de respaldo si la imagen no se carga */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
 
 header {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 0rem;
+    
 }
-
 
 h1 {
     
@@ -39,28 +51,21 @@ h2 {
     font-style: normal;
 }
 
-body {
-    background-image: url('https://wallpapercave.com/wp/wp3964454.png');
-    background-color: #d9d9d9; /* Color de respaldo si la imagen no se carga */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-}
 
-.tarjetas {
+
+.tarjetas {  
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     justify-content: center;
     columns: 2;
+  
+    
    
-   
+}
+
+.imagen{
+    justify-content: center;
 }
 
 
@@ -86,8 +91,19 @@ ul {
 ul :hover{
     text-shadow: 0 0 10px #fff8;
 }
-
-
-
-
    
+#elemento1 {
+    font-size: 2rem; 
+    padding: 1rem;
+}
+
+#elemento2{
+    font-size: 1rem;
+   padding: 0px;
+}
+
+#elemento3{
+    font-size: medium;
+    text-align: justify;
+    padding: 1rem;
+}
