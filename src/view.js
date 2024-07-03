@@ -2,91 +2,42 @@ import dataset from "./data/dataset.js";
 
 
 export const renderItems = (data) => {
-  const prioritarios = ["imageUrl", "name", "shortDescription", "dificultadDeUsoDelCampeon", "tipoDeDano", "carril", "frase"];
-  const nombrePrioritarios = {
-    dificultadDeUsoDelCampeon: "Dificultad de Uso: ",
-    tipoDeDano: "Tipo de Daño: ",
-    carril: "Posición: ",
-    frase: "Frase: "
-  };
 
-  const secundarios = ["description", "extraInfo", "datoCurioso"]
-  const nombreSecundarios = {
-    description: "Descripción: ",
-    extraInfo: "Dato",
-    datoCurioso: "Dato curioso"
-  };
+  const tarjetas = data.map(campeona => {
+    const tarjeta = document.createElement("ul");   // Crea un elemento "ul" para cada campeona
+    tarjeta.classList.add("tarjeta")               // Asigna una clase "tarjeta" para utilizarlo con CSS
 
+    let imgTarjeta = document.createElement("li");       // Crea un elemento "li" que contiene la imagen
+    let imgElemento = document.createElement("img");     // Crea el elemento "img" y se asignan sus atributos
+    imgElemento.src = campeona.imageUrl;                //Da la ruta de imagen
+    imgElemento.alt = campeona.name;                   //Texto alternativo si no carga la imagen
+    imgElemento.width = 300;                          //alto de la imagen
+    imgElemento.height = 200;                        //Ancho de la imagen
 
-  let ulElementos = data.map(campeona => {
-    let Elemento = document.createElement("ul");
-    Elemento.classList.add('tarjeta');
+    imgElemento.classList.add("imagen");           // Asigna una clase "imagen" para utilizarlo con CSS
+    imgTarjeta.appendChild(imgElemento);          // Añade la imagen al 'li'
 
-    let imgLi = document.createElement("li");
-    imgLi.classList.add("img-container");
+    tarjeta.appendChild(imgTarjeta);           // Añade el 'li' con la imagen a la tarjeta
 
-    let propiedadesOcultas = document.createElement("ul");
-    propiedadesOcultas.classList.add("propiedades-ocultas");
-    propiedadesOcultas.style.display = "none";
+    let infoTarjeta = document.createElement("li");      // Crea un 'li' que contendrá la información adicional
 
 
-    let propiedadesVisibles = document.createElement("ul");
-    propiedadesVisibles.classList.add("propiedades-visibles");
+    let liElemento = document.createElement("li"); // Crea un 'li' para el nombre y asignar el texto
 
-    for (let propiedad in campeona) {
-      if (propiedad === "id") continue;
+    liElemento.textContent = campeona.nombre;
+    liElemento.textContent = campeona.descripcionCorta
 
-      let liElementos = document.createElement("li");
+    
+    infoTarjeta.appendChild(liElemento);  // Añadir el 'li' con el nombre al contenedor de información
+    
+    tarjeta.appendChild(imgTarjeta);  // Añade la imagen y la información a la tarjeta
+    tarjeta.appendChild(infoTarjeta);
 
-      if (propiedad === "imageUrl") {
-        let imgElement = document.createElement("img");
-        imgElement.src = campeona[propiedad];
-        imgElement.alt = campeona.name;
-        imgElement.width = 300;
-        imgElement.height = 200;
-        imgLi.appendChild(imgElement);
-      } else if (propiedad === "facts") {
-        let facts = campeona.facts;
+    
 
-        for (let propiedadesFact in facts) {
-          if (propiedadesFact === "datoCurioso") continue;
 
-          let factElementLi = document.createElement("li");
-          factElementLi.textContent = `${nombrePrioritarios[propiedadesFact] || propiedadesFact} ${facts[propiedadesFact]}`;
-          propiedadesVisibles.appendChild(factElementLi);
-        }
-      } else {
-        liElementos.textContent = `${nombrePrioritarios[propiedad] || propiedad}: ${campeona[propiedad]}`;
-
-        if (prioritarios.includes(propiedad)) {
-          propiedadesVisibles.appendChild(liElementos);
-        } else {
-          propiedadesOcultas.appendChild(liElementos);
-        }
-      }
-    }
-
-    let leerMas = document.createElement("button");
-    leerMas.textContent = "Leer más";
-    leerMas.classList.add("leer-mas");
-    leerMas.addEventListener("click", () => {
-      if (propiedadesOcultas.style.display === "none") {
-        propiedadesOcultas.style.display = "flex";
-        leerMas.textContent = "Leer menos";
-      } else {
-        propiedadesOcultas.style.display = "none";
-        leerMas.textContent = "Leer más";
-      }
-    });
-
-    propiedadesVisibles.appendChild(leerMas);
-    propiedadesVisibles.appendChild(propiedadesOcultas);
-
-    Elemento.appendChild(imgLi);
-    Elemento.appendChild(propiedadesVisibles);
-
-    return Elemento;
+    return tarjeta  // Retorna el elemento "ul" creado
   });
 
-  return ulElementos;
+  return tarjetas    // Retorna la lista completa de las tarjetas
 };
