@@ -9,7 +9,7 @@ export default [
     "hechos": {
       "frase": "Recuerda, un cortador limpio es un artesano habilidoso.",
       "datoCurioso": "Fue diseñada para ser una máquina de combate perfecta.",
-      "dificultadDeUsoDelCampeon": "Alta",
+      "dificultadDeUso": "Alta",
       "tipoDeDano": "Físico",
       "carril": "Top"
     }
@@ -25,7 +25,7 @@ export default [
     "hechos": {
       "frase": "Tu habilidad de pelear me satisface.",
       "datoCurioso": "Es la heredera de la familia Laurent.",
-      "dificultadDeUsoDelCampeon": "Media",
+      "dificultadDeUso": "Media",
       "tipoDeDano": "Físico",
       "carril": "Top"
     }
@@ -41,7 +41,7 @@ export default [
     "hechos": {
       "frase": "La verdad es brutal.",
       "datoCurioso": "Es una ferviente seguidora del dios de las Islas de Serpiente.",
-      "dificultadDeUsoDelCampeon": "Media",
+      "dificultadDeUso": "Media",
       "tipoDeDano": "Físico",
       "carril": "Top"
     }
@@ -52,12 +52,12 @@ export default [
     "nombre": "Quinn",
     "descripcionCorta": "Las Alas de Demacia.",
     "descripcion": "Quinn, conocida como 'Las Alas de Demacia', es una letal tiradora con una movilidad excepcional en el mapa. Su habilidad única, Valor, le permite transformarse en un águila y volar por cortas distancias, lo que facilita emboscadas y escapadas rápidas. Quinn destaca por su capacidad para atacar desde la distancia con su habilidad Golpe Cegador, que además de causar daño, desorienta a sus enemigos. Su presencia en el carril superior se complementa con la capacidad de revelar áreas con sus Salto Aéreo, lo que la convierte en una elección estratégica tanto para emboscar como para controlar el mapa.",
-    "iextraInfo": "Quinn puede cambiar de carril y aplicar presión en el mapa con facilidad gracias a su definitiva.",
+    "extraInfo": "Quinn puede cambiar de carril y aplicar presión en el mapa con facilidad gracias a su definitiva.",
     "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Quinn_0.jpg",
     "hechos": {
       "frase": "Para Demacia.",
       "datoCurioso": "Valor es un águila gigante que actúa como sus ojos en el cielo.",
-      "dificultadDeUsoDelCampeon": "Alta",
+      "dificultadDeUso": "Alta",
       "tipoDeDano": "Físico",
       "carril": "Top/Bot"
     }
@@ -73,7 +73,7 @@ export default [
     "hechos": {
       "frase": "¿Qué es lo que te mueve?",
       "datoCurioso": "Su espada rota es un símbolo de su pasado.",
-      "dificultadDeUsoDelCampeon": "Alta",
+      "dificultadDeUso": "Alta",
       "tipoDeDano": "Físico",
       "carril": "Top"
     }
@@ -89,7 +89,7 @@ export default [
     "hechos": {
       "frase": "No puedo decidirme por un sabor.",
       "datoCurioso": "Ahri es una vastaya, lo que le otorga su aspecto zorruno.",
-      "dificultadDeUsoDelCampeon": "Media",
+      "dificultadDeUso": "Media",
       "tipoDeDano": "Mágico",
       "carril": "Mid"
     }
@@ -105,7 +105,7 @@ export default [
     "hechos": {
       "frase": "El ninja perfecto está en todas partes.",
       "datoCurioso": "Abandonó la orden Kinkou para seguir su propio camino.",
-      "dificultadDeUsoDelCampeon": "Alta",
+      "dificultadDeUso": "Alta",
       "tipoDeDano": "Mágico",
       "carril": "Mid/Top"
     }
@@ -121,7 +121,7 @@ export default [
     "hechos": {
       "frase": "La violencia resuelve todo.",
       "datoCurioso": "Es la hija del general Du Couteau.",
-      "dificultadDeUsoDelCampeon": "Alta",
+      "dificultadDeUso": "Alta",
       "tipoDeDano": "Mágico",
       "carril": "Mid"
     }
@@ -137,7 +137,7 @@ export default [
     "hechos": {
       "frase": "La luz prevalecerá.",
       "datoCurioso": "Es miembro de la familia Crownguard de Demacia.",
-      "dificultadDeUsoDelCampeon": "Baja",
+      "dificultadDeUso": "Baja",
       "tipoDeDano": "Mágico",
       "carril": "Mid/Support"
     }
@@ -153,7 +153,7 @@ export default [
     "hechos": {
       "frase": "La rosa negra florecerá una vez más.",
       "datoCurioso": "Es una de las líderes de la Rosa Negra.",
-      "dificultadDeUsoDelCampeon": "Alta",
+      "dificultadDeUso": "Alta",
       "tipoDeDano": "Mágico",
       "carril": "Mid"
     }
@@ -169,7 +169,7 @@ export default [
     "hechos": {
       "frase": "El amanecer siempre llega.",
       "datoCurioso": "Es una guerrera del Solari.",
-      "dificultadDeUsoDelCampeon": "Baja",
+      "dificultadDeUso": "Baja",
       "tipoDeDano": "Mágico",
       "carril": "Support"
     }
@@ -185,7 +185,7 @@ export default [
     "hechos": {
       "frase": "La imaginación es la mejor arma.",
       "datoCurioso": "Su mejor amigo es un hada llamada Pix.",
-      "dificultadDeUsoDelCampeon": "Baja",
+      "dificultadDeUso": "Baja",
       "tipoDeDano": "Mágico",
       "carril": "Support"
     }
@@ -201,7 +201,7 @@ export default [
     "hechos": {
       "frase": "La tormenta se avecina.",
       "datoCurioso": "Es una entidad espiritual que controla el clima.",
-      "dificultadDeUsoDelCampeon": "Baja",
+      "dificultadDeUso": "Baja",
       "tipoDeDano": "Mágico",
       "carril": "Support"
     }
@@ -217,7 +217,7 @@ export default [
     "hechos": {
       "frase": "No quiero hacerte daño.",
       "datoCurioso": "Es la hermana gemela de Kayle.",
-      "dificultadDeUsoDelCampeon": "Baja",
+      "dificultadDeUso": "Baja",
       "tipoDeDano": "Mágico",
       "carril": "Mid/Support"
     }
@@ -233,7 +233,7 @@ export default [
     "hechos": {
       "frase": "Las estrellas nos guían.",
       "datoCurioso": "Es una celestial que descendió para ayudar a los mortales.",
-      "dificultadDeUsoDelCampeon": "Baja",
+      "dificultadDeUso": "Baja",
       "tipoDeDano": "Mágico",
       "carril": "Support"
     }
@@ -249,7 +249,7 @@ export default [
     "hechos": {
       "frase": "El frío no me detendrá.",
       "datoCurioso": "Es la líder del clan Garra Invernal.",
-      "dificultadDeUsoDelCampeon": "Media",
+      "dificultadDeUso": "Media",
       "tipoDeDano": "Mágico",
       "carril": "Jungla"
     }
@@ -265,7 +265,7 @@ export default [
     "hechos": {
       "frase": "La luna me guía.",
       "datoCurioso": "Diana fue una vez una fiel seguidora del Solari.",
-      "dificultadDeUsoDelCampeon": "Media",
+      "dificultadDeUso": "Media",
       "tipoDeDano": "Mágico",
       "carril": "Mid/Jungla"
     }
@@ -281,7 +281,7 @@ export default [
     "hechos": {
       "frase": "Atrápalos en mi red.",
       "datoCurioso": "Era una sacerdotisa antes de convertirse en una araña.",
-      "dificultadDeUsoDelCampeon": "Alta",
+      "dificultadDeUso": "Alta",
       "tipoDeDano": "Mágico",
       "carril": "Jungla"
     }
@@ -297,7 +297,7 @@ export default [
     "hechos": {
       "frase": "El bosque me llama.",
       "datoCurioso": "Es una espíritu del bosque que cuida los sueños.",
-      "dificultadDeUsoDelCampeon": "Media",
+      "dificultadDeUso": "Media",
       "tipoDeDano": "Mágico",
       "carril": "Jungla"
     }
@@ -313,7 +313,7 @@ export default [
     "hechos": {
       "frase": "El fuego me alimenta.",
       "datoCurioso": "Es mitad dragona, mitad humana.",
-      "dificultadDeUsoDelCampeon": "Media",
+      "dificultadDeUso": "Media",
       "tipoDeDano": "Mixto",
       "carril": "Jungla"
     }
@@ -329,7 +329,7 @@ export default [
     "hechos": {
       "frase": "La verdadera fuerza radica en el espíritu.",
       "datoCurioso": "Es la líder de la tribu Avarosan.",
-      "dificultadDeUsoDelCampeon": "Baja",
+      "dificultadDeUso": "Baja",
       "tipoDeDano": "Físico",
       "carril": "Bot"
     }
@@ -345,7 +345,7 @@ export default [
     "hechos": {
       "frase": "La justicia de Piltover siempre prevalecerá.",
       "datoCurioso": "Es la sheriff más joven en la historia de Piltover.",
-      "dificultadDeUsoDelCampeon": "Media",
+      "dificultadDeUso": "Media",
       "tipoDeDano": "Físico",
       "carril": "Bot"
     }
@@ -361,7 +361,7 @@ export default [
     "hechos": {
       "frase": "¡Vamos a hacer explotar algo!",
       "datoCurioso": "Tiene una personalidad caótica y adora la destrucción.",
-      "dificultadDeUsoDelCampeon": "Media",
+      "dificultadDeUso": "Media",
       "tipoDeDano": "Físico",
       "carril": "Bot"
     }
@@ -377,7 +377,7 @@ export default [
     "hechos": {
       "frase": "Todo hombre tiene su precio.",
       "datoCurioso": "Es una famosa cazarrecompensas de Aguas Estancadas.",
-      "dificultadDeUsoDelCampeon": "Baja",
+      "dificultadDeUso": "Baja",
       "tipoDeDano": "Físico",
       "carril": "Bot"
     }

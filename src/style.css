@@ -26,7 +26,6 @@ header {
     
 }
 
-
 h1 {
     
     color: #f3f3f3;
@@ -60,8 +59,13 @@ h2 {
     justify-content: space-between;
     justify-content: center;
     columns: 2;
+  
+    
    
-   
+}
+
+.imagen{
+    justify-content: center;
 }
 
 
@@ -88,8 +92,19 @@ ul {
 ul :hover{
     text-shadow: 0 0 10px #fff8;
 }
-
-
-
-
    
+#elemento1 {
+    font-size: 2rem; 
+    padding: 1rem;
+}
+
+#elemento2{
+    font-size: 1rem;
+   padding: 0px;
+}
+
+#elemento3{
+    font-size: medium;
+    text-align: justify;
+    padding: 1rem;
+}
