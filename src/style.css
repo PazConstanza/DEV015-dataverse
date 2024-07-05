@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+}
+
+body {
+    background-image: url('https://wallpapercave.com/wp/wp3964454.png');
+    background-color: #d9d9d9;
+    /* Color de respaldo si la imagen no se carga */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+h1 {
+
+    color: #f3f3f3;
+    padding: 1rem;
+    width: 9em;
+    text-align: center;
+    font-size: 6em;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+
+}
+
+h1:hover {
+    text-shadow: 0 0 10px #fff8;
+}
+
+h2 {
+    color: #f3f3f3;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+}
+
+
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    columns: 2;
+    
+  
+}
+
+
+
+ul {
+    display:flexbox;
+    width: 40%;
+    list-style-type: none;
+    margin: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: transparent;
+    font: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    border: 2px linen #f7f7bf;
+    text-align: left;
+    background-color: rgb(0, 0, 0, 0.5);
+    gap: 32px;
+    transition: transform 0.3s ease-in-out;
+    
+    
+    
+}
+   
+.imagen{
+    float: left;
+}
+
+ul :hover{
+    text-shadow: 0 0 10px #fff8;
+}
+
+#elementoVisible1 {
+    font-size: 2rem; 
+    padding: 0rem;
+    text-align:justify;
+    text-align:center;
+    font-family: baskervville SC;
+    
+}
+
+#elementoVisible2{
+   font-size: 1rem;
+   padding: 0px;
+   text-align:justify;
+   text-align:center;
+}
+
+#elementoVisible3 {
+    font-size: medium;
+    padding: 0.5rem;
+    text-align:justify;
+    text-align:left;
+    font-style: italic;
+    font-family: dancing-script;
+    font-size: 1.3rem;
+}
+
+#elementoVisible4{
+    font-size: medium;
+    padding: 0.5rem;
+    text-align: justify;
+    text-align:left;
+    font-family: baskervville SC;
+}
+
+#elementoVisible5{
+    font-size: medium;
+    padding: 0.5rem;
+    text-align: justify;
+    text-align:left;
+}
+
+#elementoVisible6{
+    font-size: medium;
+    padding: 0.5rem;
+    text-align: justify;
+    text-align:left;
+}
+
+.inicialOculta { 
+    margin-top: 10px;  
+    padding: 10px;  
+    border-radius: 5px;  
+    font-family: baskervville SC;
+}
+
+
+#elementoOculto1{
+    font-size: medium;
+    padding: 0.5rem;
+    text-align: justify;
+    text-align:left;
+}
+
+
+#elementoOculto2{
+    font-size: medium;
+    padding: 0.5rem;
+    text-align: justify;
+    text-align:left;
+}
+
+
+#elementoOculto3{
+    font-size: medium;
+    padding: 0.5rem;
+    text-align: justify;
+    text-align:left;
+}
+ 
+button {  
+    margin-top: 10px; 
+    padding: 5px 10px;  
+    background-color: #444;  
+    color: #fff;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}
+  
+  button:hover {  
+    background-color: #666;  
+  }

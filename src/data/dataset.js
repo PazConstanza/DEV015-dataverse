@@ -1,378 +1,385 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+    "id": "1",
+    "nombre": "Camille",
+    "descripcionCorta": "La Sombra de Acero.",
+    "descripcion": "Camille, conocida como 'La Sombra de Acero', es una luchadora versátil de la línea superior, reconocida por su precisión en los duelos y su capacidad de adaptación. Su kit de habilidades gira en torno a atrapar objetivos con su Gancho y ejecutar daño sostenido con Protocolo de Precisión. Destaca en dividir líneas y atrapar enemigos con su Ultimátum Hextech, convirtiéndola en una fuerza formidable en el late game. Camille se beneficia de un juego táctico y calculado, aprovechando su movilidad y control de área para dominar el campo de batalla y asegurar victorias decisivas para su equipo.",
+    "extraInfo": "Camille destaca por su habilidad para aislar y eliminar a los objetivos clave del equipo enemigo.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
+    "hechos": {
+      "frase": "Recuerda, un cortador limpio es un artesano habilidoso.",
+      "datoCurioso": "Fue diseñada para ser una máquina de combate perfecta.",
+      "dificultadDeUso": "Alta",
+      "tipoDeDano": "Físico",
+      "carril": "Top"
     }
   },
+
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-    "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+    "id": "2",
+    "nombre": "Fiora",
+    "descripcionCorta": "La Gran Duelista.",
+    "descripcion": "Fiora, conocida como 'La Gran Duelista', es una luchadora letal enfocada en duelos y enfrentamientos individuales en el carril superior. Su habilidad pasiva, Baile de Duelista, revela puntos vitales en sus enemigos, alentándola a moverse y atacar desde diferentes ángulos. Fiora utiliza Estocada para golpear rápidamente y aplicar efectos de control de masas. Su habilidad definitiva, Duelo Máximo, marca varios puntos vitales en un enemigo, infligiendo daño verdadero adicional y curándola si logra golpearlos todos. Fiora se destaca en combates prolongados, donde puede aprovechar su movilidad y habilidad para esquivar ataques, convirtiéndose en una amenaza constante para sus oponentes.",
+    "extraInfo": "Fiora tiene una gran capacidad de curación mediante su pasiva y puede volverse imparable si se juega correctamente.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_0.jpg",
+    "hechos": {
+      "frase": "Tu habilidad de pelear me satisface.",
+      "datoCurioso": "Es la heredera de la familia Laurent.",
+      "dificultadDeUso": "Media",
+      "tipoDeDano": "Físico",
+      "carril": "Top"
     }
   },
+
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+    "id": "3",
+    "nombre": "Illaoi",
+    "descripcionCorta": "La Sacerdotisa del Kraken.",
+    "descripcion": "Illaoi, conocida como 'La Sacerdotisa del Kraken', domina la línea superior con un estilo de juego centrado en el control del área y el daño sostenido. Su habilidad clave, Prueba de Espíritu, arranca espíritus de sus enemigos, desencadenando enfrentamientos adicionales que le otorgan curación y aumentan su daño si sus tentáculos golpean a enemigos afectados. Illaoi se destaca en peleas prolongadas y escaramuzas de equipo, aprovechando su presencia abrumadora para influir decisivamente en los enfrentamientos. Con su habilidad para forzar el juego en su territorio, se convierte en una amenaza constante en el campo de batalla.",
+    "extraInfo": "Illaoi puede sanar una gran cantidad de vida al golpear múltiples objetivos con sus tentáculos.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Illaoi_0.jpg",
+    "hechos": {
+      "frase": "La verdad es brutal.",
+      "datoCurioso": "Es una ferviente seguidora del dios de las Islas de Serpiente.",
+      "dificultadDeUso": "Media",
+      "tipoDeDano": "Físico",
+      "carril": "Top"
     }
   },
+
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+    "id": "4",
+    "nombre": "Quinn",
+    "descripcionCorta": "Las Alas de Demacia.",
+    "descripcion": "Quinn, conocida como 'Las Alas de Demacia', es una letal tiradora con una movilidad excepcional en el mapa. Su habilidad única, Valor, le permite transformarse en un águila y volar por cortas distancias, lo que facilita emboscadas y escapadas rápidas. Quinn destaca por su capacidad para atacar desde la distancia con su habilidad Golpe Cegador, que además de causar daño, desorienta a sus enemigos. Su presencia en el carril superior se complementa con la capacidad de revelar áreas con sus Salto Aéreo, lo que la convierte en una elección estratégica tanto para emboscar como para controlar el mapa.",
+    "extraInfo": "Quinn puede cambiar de carril y aplicar presión en el mapa con facilidad gracias a su definitiva.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Quinn_0.jpg",
+    "hechos": {
+      "frase": "Para Demacia.",
+      "datoCurioso": "Valor es un águila gigante que actúa como sus ojos en el cielo.",
+      "dificultadDeUso": "Alta",
+      "tipoDeDano": "Físico",
+      "carril": "Top/Bot"
     }
   },
+
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    "id": "5",
+    "nombre": "Riven",
+    "descripcionCorta": "La Exiliada.",
+    "descripcion": "Riven, conocida como 'La Exiliada', es una guerrera ágil y versátil que domina el carril superior con un estilo de juego basado en combos rápidos y movilidad. Sus habilidades, como Espada Rota y Cuchillada de Ki, le permiten ejecutar ataques rápidos y evadir situaciones complicadas. Riven es una experta en el duelo gracias a su Escudo Valor, que bloquea daño y facilita intercambios favorables. Con su habilidad definitiva, Viento Furioso, aumenta su daño y movilidad en combate, convirtiéndola en una amenaza constante. Destaca por su capacidad de adaptarse y sobresalir en enfrentamientos uno contra uno y escaramuzas de equipo.",
+    "extraInfo": "Riven es conocida por su alta movilidad y su capacidad para ejecutar combos precisos y mortales.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg",
+    "hechos": {
+      "frase": "¿Qué es lo que te mueve?",
+      "datoCurioso": "Su espada rota es un símbolo de su pasado.",
+      "dificultadDeUso": "Alta",
+      "tipoDeDano": "Físico",
+      "carril": "Top"
     }
   },
+
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    "id": "6",
+    "nombre": "Ahri",
+    "descripcionCorta": "La Zorra de Nueve Colas.",
+    "descripcion": "Ahri, conocida como 'La Zorra de Nueve Colas', es una maga altamente móvil especializada en rápidos estallidos de daño y control. Su habilidad principal, Orbe de Engaño, le permite lanzar un proyectil que regresa a ella, proporcionándole sustento y evasión. Encanto, su habilidad secundaria, puede encantar a un enemigo y amplificar el daño recibido. Ahri es letal en duelos individuales y en enfrentamientos de equipo gracias a su movilidad con Oleada Espiritual, que la hace difícil de atrapar y una constante amenaza en el carril medio.",
+    "extraInfo": "Ahri puede recuperar vida con sus habilidades, lo que le permite mantenerse en el carril por más tiempo.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+    "hechos": {
+      "frase": "No puedo decidirme por un sabor.",
+      "datoCurioso": "Ahri es una vastaya, lo que le otorga su aspecto zorruno.",
+      "dificultadDeUso": "Media",
+      "tipoDeDano": "Mágico",
+      "carril": "Mid"
     }
   },
+
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+    "id": "7",
+    "nombre": "Akali",
+    "descripcionCorta": "La Maestra de las Sombras.",
+    "descripcion": "Akali, conocida como 'La Maestra de las Sombras', es una asesina ágil y letal que domina el carril central con su combinación de movilidad y burst damage. Su habilidad pasiva, Marca de los Asesinos, le otorga velocidad de movimiento adicional al atravesar el humo. Akali puede usar su Shuriken Asesino para dañar a distancia y acosar a sus oponentes antes de cerrar la distancia con Cuchilla de la Sombra, permitiéndole ejecutar rápidos combos y escapar con Disparo de Sombra. Su habilidad definitiva, Danza de las Sombras, le proporciona múltiples cargas de habilidades para realizar rápidas ejecuciones o evadir peligros.",
+    "extraInfo": "Akali puede moverse rápidamente entre las sombras, lo que la hace extremadamente difícil de atrapar.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
+    "hechos": {
+      "frase": "El ninja perfecto está en todas partes.",
+      "datoCurioso": "Abandonó la orden Kinkou para seguir su propio camino.",
+      "dificultadDeUso": "Alta",
+      "tipoDeDano": "Mágico",
+      "carril": "Mid/Top"
     }
   },
+
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+    "id": "8",
+    "nombre": "Katarina",
+    "descripcionCorta": "La Daga Siniestra.",
+    "descripcion": "Katarina, conocida como 'La Daga Siniestra', es una asesina extremadamente móvil y peligrosa en el carril central. Su estilo de juego se centra en saltar entre objetivos con su habilidad Saltar, lo que le permite causar rápidos estallidos de daño con Cuchillas Rebotantes y acabar con múltiples enemigos con su definitiva, Torbellino de Cuchillas. Katarina es conocida por su capacidad para limpiar peleas con precisión y escapar con Gracia Shunpo, lo que la convierte en una elección temida en partidas competitivas y una amenaza constante en el juego temprano y tardío.",
+    "extraInfo": "Katarina puede realizar combinaciones rápidas de habilidades que pueden eliminar a múltiples enemigos en segundos.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg",
+    "hechos": {
+      "frase": "La violencia resuelve todo.",
+      "datoCurioso": "Es la hija del general Du Couteau.",
+      "dificultadDeUso": "Alta",
+      "tipoDeDano": "Mágico",
+      "carril": "Mid"
     }
   },
+
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+    "id": "9",
+    "nombre": "Lux",
+    "descripcionCorta": "La Dama de la Luz.",
+    "descripcion": "Lux, conocida como 'La Dama de la Luz', es una maga de largo alcance especializada en control de masas y daño a distancia. Su habilidad principal, Luz Final, dispara un rayo de energía que atraviesa a todos los enemigos, causando daño y ralentizándolos. Lux protege a sus aliados con Prisma Lucente, que atrapa y aturde a los enemigos. Su Barrera Prismática ilumina áreas, proporcionando visión crucial. En el carril medio, Lux destaca por su versatilidad y habilidades estratégicas para cambiar el rumbo de las batallas con precisión. Es una opción poderosa para controlar el campo de batalla y asegurar victorias.",
+    "extraInfo": "Lux puede ser jugada como maga en la línea de medio o como soporte.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg",
+    "hechos": {
+      "frase": "La luz prevalecerá.",
+      "datoCurioso": "Es miembro de la familia Crownguard de Demacia.",
+      "dificultadDeUso": "Baja",
+      "tipoDeDano": "Mágico",
+      "carril": "Mid/Support"
     }
   },
+
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+    "id": "10",
+    "nombre": "LeBlanc",
+    "descripcionCorta": "La Maquiavélica.",
+    "descripcion": "LeBlanc, conocida como 'La Maquiavélica', es una maestra del engaño y la manipulación en el carril medio. Utiliza su habilidad Pasos Sigilosos para moverse rápidamente por el mapa y sorprender a sus enemigos. Con Destello, puede lanzar una ilusión que confunde a los rivales y la ayuda a escapar. LeBlanc inflige daño masivo con su combo de Cadenas Etéreas y Distorción, desorientando a los enemigos y dejándolos vulnerables. Su capacidad para jugar con la mente de los oponentes la convierte en una amenaza constante y una elección popular para jugadores que disfrutan del estilo de juego de asesinos.",
+    "extraInfo": "LeBlanc puede hacer un daño explosivo en segundos si se utiliza correctamente.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leblanc_0.jpg",
+    "hechos": {
+      "frase": "La rosa negra florecerá una vez más.",
+      "datoCurioso": "Es una de las líderes de la Rosa Negra.",
+      "dificultadDeUso": "Alta",
+      "tipoDeDano": "Mágico",
+      "carril": "Mid"
     }
   },
+
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+    "id": "11",
+    "nombre": "Leona",
+    "descripcionCorta": "El Amanecer Radiante.",
+    "descripcion": "Leona, conocida como 'El Amanecer Radiante', es una tanque de iniciación en la posición de soporte. Su kit de habilidades se centra en el control de masas y la protección de aliados. Leona puede atrapar a los enemigos con su Cuchilla Solar y luego inmovilizarlos con Eclipse, proporcionando a su equipo oportunidades para asegurar eliminaciones. Su habilidad definitiva, Luz Solar, causa daño y aturde a los enemigos en un área amplia, facilitando el inicio de peleas y el control del campo de batalla. Leona es esencial para equipos que buscan un soporte con capacidad de iniciación y capacidad de supervivencia.",
+    "extraInfo": "Leona es una campeona ideal para jugadores que prefieren un estilo de juego agresivo y protector.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_0.jpg",
+    "hechos": {
+      "frase": "El amanecer siempre llega.",
+      "datoCurioso": "Es una guerrera del Solari.",
+      "dificultadDeUso": "Baja",
+      "tipoDeDano": "Mágico",
+      "carril": "Support"
     }
   },
+
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+    "id": "12",
+    "nombre": "Lulu",
+    "descripcionCorta": "La Hechicera Hada.",
+    "descripcion": "Lulu, conocida como 'La Hechicera Hada', es una soporte versátil que brinda utilidad y protección en el carril inferior. Utiliza Ayudar y Polimorfia para fortalecer a aliados y transformar a enemigos en criaturas inofensivas. Lulu puede defenderse con sus Píxeles Hada, que infligen daño y ralentizan a los enemigos, mientras que su definitiva, Crecimiento Salvaje, proporciona un gran escudo y transforma a un aliado en un gigante que aplasta a los enemigos cercanos. Su capacidad para controlar peleas y potenciar a sus compañeros la convierte en una elección popular para jugadores que buscan apoyo y juego estratégico.",
+    "extraInfo": "Lulu puede cambiar el curso de una pelea con su capacidad de control de masas.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lulu_0.jpg",
+    "hechos": {
+      "frase": "La imaginación es la mejor arma.",
+      "datoCurioso": "Su mejor amigo es un hada llamada Pix.",
+      "dificultadDeUso": "Baja",
+      "tipoDeDano": "Mágico",
+      "carril": "Support"
     }
   },
+
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+    "id": "13",
+    "nombre": "Janna",
+    "descripcionCorta": "La Furia de la Tormenta.",
+    "descripcion": "Janna, conocida como 'La Furia de la Tormenta', es una soporte defensiva que domina el carril inferior con su control de masas y protección. Usa Como el Viento para aumentar la velocidad de movimiento de aliados y disminuir la de los enemigos. Janna puede disuadir a los enemigos con su Torbellino, que los lanza por el aire y ralentiza su avance, mientras que su Defensor Estelar escuda a los aliados y los cura con el tiempo. Su definitiva, Monzón, despeja el área y aleja a los enemigos, proporcionando control y salvación en situaciones críticas.",
+    "extraInfo": "Janna puede cambiar el curso de una pelea con su definitiva, que empuja a los enemigos y cura a los aliados.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Janna_0.jpg",
+    "hechos": {
+      "frase": "La tormenta se avecina.",
+      "datoCurioso": "Es una entidad espiritual que controla el clima.",
+      "dificultadDeUso": "Baja",
+      "tipoDeDano": "Mágico",
+      "carril": "Support"
     }
   },
+
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+    "id": "14",
+    "nombre": "Morgana",
+    "descripcionCorta": "La Dama de la Angustia.",
+    "descripcion": "Morgana, conocida como 'La Dama de la Angustia', es una maga de control en el carril central o soporte. Utiliza su habilidad Encadenar para atrapar a los enemigos y dejarlos indefensos, mientras que su Escudo Negro protege a aliados de habilidades enemigas. Morgana puede infligir devastadores daños con su Sombra Maldita y mantener a sus aliados seguros. Su definitiva, Alarido Indómito, debilita a los enemigos atrapados en su área de efecto. Su capacidad para mantener el control del campo de batalla y proteger a su equipo la convierte en una elección estratégica.",
+    "extraInfo": "Morgana puede atrapar a varios enemigos con su Q y hacer un daño significativo en áreas con su W.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Morgana_0.jpg",
+    "hechos": {
+      "frase": "No quiero hacerte daño.",
+      "datoCurioso": "Es la hermana gemela de Kayle.",
+      "dificultadDeUso": "Baja",
+      "tipoDeDano": "Mágico",
+      "carril": "Mid/Support"
     }
   },
+
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+    "id": "15",
+    "nombre": "Soraka",
+    "descripcionCorta": "La Hija de las Estrellas.",
+    "descripcion": "Soraka, conocida como 'La Hija de las Estrellas', es una soporte dedicada a curar a sus aliados y mantenerlos vivos durante las peleas. Utiliza su habilidad Invocación Estelar para dañar a los enemigos y regenerar la salud de los aliados con su Infusión Astral. Soraka puede restaurar vida rápidamente con su Bendición Astral y curar a todos los aliados en el mapa con su definitiva, Deseo, lo que la convierte en un salvavidas durante enfrentamientos extendidos o momentos críticos. Su habilidad para mantener a su equipo vivo la hace esencial en composiciones centradas en la supervivencia.",
+    "extraInfo": "Soraka puede curar a todos sus aliados en el mapa con su definitiva.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Soraka_0.jpg",
+    "hechos": {
+      "frase": "Las estrellas nos guían.",
+      "datoCurioso": "Es una celestial que descendió para ayudar a los mortales.",
+      "dificultadDeUso": "Baja",
+      "tipoDeDano": "Mágico",
+      "carril": "Support"
     }
   },
+
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+    "id": "16",
+    "nombre": "Sejuani",
+    "descripcionCorta": "La Furia del Norte.",
+    "descripcion": "Sejuani, conocida como 'La Furia del Norte', es una tanque y líder de iniciación en la jungla. Su kit se centra en el control de masas y la durabilidad. Utiliza Congelación Permanente para aturdir a los enemigos y deshabilitarlos durante las peleas. Su habilidad definitiva, Prisión Glacial, lanza una bola de hielo que aturde a los enemigos en un área grande, iniciando peleas de equipo de manera efectiva. Sejuani destaca en el control del campo de batalla y la protección de su equipo, siendo una presencia imponente en las escaramuzas y peleas prolongadas.",
+    "extraInfo": "Sejuani puede aplicar efectos de control de masas a múltiples enemigos con su E y su R.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sejuani_0.jpg",
+    "hechos": {
+      "frase": "El frío no me detendrá.",
+      "datoCurioso": "Es la líder del clan Garra Invernal.",
+      "dificultadDeUso": "Media",
+      "tipoDeDano": "Mágico",
+      "carril": "Jungla"
     }
   },
+
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+    "id": "17",
+    "nombre": "Diana",
+    "descripcionCorta": "Desplegada de la Luna.",
+    "descripcion": "Diana, conocida como 'Desplegada de la Luna', es una asesina y luchadora mágica en el carril medio o la jungla. Su habilidad principal, Hoja Crescente, le permite atraer a los enemigos y desatar poderosos ataques en cadena. Diana destaca en enfrentamientos individuales y peleas de equipo con su definitiva, Tormenta Lunar, que causa daño masivo en área. Su escudo, Cascada Pálida, le otorga durabilidad adicional, permitiéndole sobrevivir en situaciones difíciles. Diana es una amenaza constante, capaz de eliminar objetivos prioritarios rápidamente y cambiar el curso de las peleas.",
+    "extraInfo": "Diana puede realizar combos rápidos de habilidades que pueden eliminar a enemigos solitarios en segundos.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg",
+    "hechos": {
+      "frase": "La luna me guía.",
+      "datoCurioso": "Diana fue una vez una fiel seguidora del Solari.",
+      "dificultadDeUso": "Media",
+      "tipoDeDano": "Mágico",
+      "carril": "Mid/Jungla"
     }
   },
+
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+    "id": "18",
+    "nombre": "Elise",
+    "descripcionCorta": "La Reina Araña.",
+    "descripcion": "Elise, conocida como 'La Reina Araña', es una jungla versátil con la capacidad de cambiar entre forma humana y araña. En su forma humana, utiliza Neurotoxina y Rápel para acosar y emboscar a los enemigos, infligiendo daño mágico a distancia. En su forma de araña, Elise gana movilidad y habilidades de daño cuerpo a cuerpo, permitiéndole finalizar a los enemigos heridos. Su habilidad definitiva, Rápel, le permite reposicionarse estratégicamente. Elise es excelente para emboscadas y control de objetivos, destacando en la manipulación del campo de batalla con su versatilidad.",
+    "extraInfo": "Elise puede curarse al golpear a los enemigos en su forma de araña.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_0.jpg",
+    "hechos": {
+      "frase": "Atrápalos en mi red.",
+      "datoCurioso": "Era una sacerdotisa antes de convertirse en una araña.",
+      "dificultadDeUso": "Alta",
+      "tipoDeDano": "Mágico",
+      "carril": "Jungla"
     }
   },
+
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+    "id": "19",
+    "nombre": "Lillia",
+    "descripcionCorta": "La Flor Tímida.",
+    "descripcion": "Lillia, conocida como 'La Flor Temblorosa', es una luchadora mágica que brilla en la jungla gracias a su movilidad y daño en área. Su habilidad principal, Golpe Floreciente, inflige daño a todos los enemigos en su trayectoria y ralentiza a los afectados. Lillia destaca en peleas prolongadas gracias a su velocidad de movimiento y curación pasiva con Ráfaga de Sueños, que puede poner a los enemigos a dormir y causarles daño adicional. Su capacidad para moverse rápidamente y distribuir daño en área la convierte en una elección estratégica para el control del mapa.",
+    "extraInfo": "Lillia puede poner a los enemigos a dormir con su definitiva, lo que le permite iniciar peleas o escapar.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_0.jpg",
+    "hechos": {
+      "frase": "El bosque me llama.",
+      "datoCurioso": "Es una espíritu del bosque que cuida los sueños.",
+      "dificultadDeUso": "Media",
+      "tipoDeDano": "Mágico",
+      "carril": "Jungla"
     }
   },
+
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+    "id": "20",
+    "nombre": "Shyvana",
+    "descripcionCorta": "La Hija del Dragón.",
+    "descripcion": "Shyvana, conocida como 'La Hija del Dragón', es una luchadora y jungla que se especializa en daño físico y mágico. Su habilidad pasiva, Furia de la Hija del Dragón, le otorga resistencia adicional contra dragones y aumenta su daño contra ellos. En su forma de dragón, activa su habilidad definitiva, Descenso del Dragón, que transforma a Shyvana en un poderoso dragón, causando daño en área y ganando habilidades mejoradas. Shyvana destaca en peleas de equipo y objetivos neutrales, utilizando su movilidad y durabilidad para dominar el campo de batalla.",
+    "extraInfo": "Shyvana obtiene bonificaciones de estadísticas al matar dragones.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shyvana_0.jpg",
+    "hechos": {
+      "frase": "El fuego me alimenta.",
+      "datoCurioso": "Es mitad dragona, mitad humana.",
+      "dificultadDeUso": "Media",
+      "tipoDeDano": "Mixto",
+      "carril": "Jungla"
     }
   },
+
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+    "id": "21",
+    "nombre": "Ashe",
+    "descripcionCorta": "La Arquera de Hielo.",
+    "descripcion": "Ashe, conocida como 'La Arquera de Hielo', es una tiradora con habilidades de control de masas y utilidad. Su habilidad principal, Tiro Congelador, ralentiza a los enemigos y facilita el seguimiento de objetivos. Ashe puede revelar áreas con Halcón de Cristal, proporcionando visión estratégica a su equipo. Su habilidad definitiva, Flecha de Cristal Encantada, es un proyectil de largo alcance que aturde al primer enemigo que golpea, iniciando peleas de manera efectiva. Ashe destaca por su capacidad para controlar el ritmo del juego y apoyar a su equipo con visión y control de masas.",
+    "extraInfo": "Ashe puede proporcionar visión y ralentizar a los enemigos con su W y su E.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+    "hechos": {
+      "frase": "La verdadera fuerza radica en el espíritu.",
+      "datoCurioso": "Es la líder de la tribu Avarosan.",
+      "dificultadDeUso": "Baja",
+      "tipoDeDano": "Físico",
+      "carril": "Bot"
     }
   },
+
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+    "id": "22",
+    "nombre": "Caitlyn",
+    "descripcionCorta": "La Sheriff de Piltover.",
+    "descripcion": "Caitlyn, conocida como 'La Sheriff de Piltover', es una tiradora con habilidades de largo alcance y control de zona. Su Pasiva, Disparo a la Cabeza, otorga daño crítico adicional en ataques periódicos. Utiliza Trampa para Yordles para inmovilizar a los enemigos y mantener el control del área. Su habilidad definitiva, As en la Manga, le permite apuntar y disparar un tiro de largo alcance que asegura eliminaciones a distancia. Caitlyn destaca por su capacidad para mantener a los enemigos a raya y ejercer presión constante en el carril inferior.",
+    "extraInfo": "Caitlyn puede utilizar sus trampas y su red para mantener la distancia con los enemigos.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
+    "hechos": {
+      "frase": "La justicia de Piltover siempre prevalecerá.",
+      "datoCurioso": "Es la sheriff más joven en la historia de Piltover.",
+      "dificultadDeUso": "Media",
+      "tipoDeDano": "Físico",
+      "carril": "Bot"
     }
   },
+
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+    "id": "23",
+    "nombre": "Jinx",
+    "descripcionCorta": "La Bala Perdida.",
+    "descripcion": "Jinx, conocida como 'La Bala Perdida', es una tiradora caótica y de alto daño. Su habilidad pasiva, ¡A tope!, le otorga velocidad de movimiento y ataque adicional después de una eliminación o destrucción de torre. Jinx puede alternar entre su lanzacohetes y ametralladora para infligir daño masivo en peleas de equipo. Su definitiva, ¡Supermegacohete mortal!, es un proyectil global que explota al impactar, causando daño significativo en función de la vida faltante del objetivo. Jinx es una amenaza constante gracias a su capacidad para causar estragos en las peleas y limpiar objetivos rápidamente.",
+    "extraInfo": "Jinx puede aumentar su velocidad de movimiento y de ataque al conseguir eliminaciones.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+    "hechos": {
+      "frase": "¡Vamos a hacer explotar algo!",
+      "datoCurioso": "Tiene una personalidad caótica y adora la destrucción.",
+      "dificultadDeUso": "Media",
+      "tipoDeDano": "Físico",
+      "carril": "Bot"
     }
   },
+
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
+    "id": "24",
+    "nombre": "Miss Fortune",
+    "descripcionCorta": "La Cazarrecompensas.",
+    "descripcion": "Miss Fortune, conocida como 'La Cazarrecompensas', es una tiradora de alto daño en área y sostenido. Su habilidad pasiva, Golpe Doble, inflige daño adicional en ataques básicos alternativos. Utiliza Lluvia de Balas para ralentizar y dañar a los enemigos en un área amplia. Su habilidad definitiva, Bala de Cañón, desata una ráfaga de balas en un cono amplio, infligiendo daño masivo a todos los enemigos en su camino. Miss Fortune se destaca en peleas de equipo por su capacidad para infligir daño sostenido y limpiar oleadas de enemigos con su poderosa ráfaga.",
+    "extraInfo": "Miss Fortune puede aplicar su pasiva a múltiples enemigos con su Q y su definitiva.",
+    "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MissFortune_0.jpg",
+    "hechos": {
+      "frase": "Todo hombre tiene su precio.",
+      "datoCurioso": "Es una famosa cazarrecompensas de Aguas Estancadas.",
+      "dificultadDeUso": "Baja",
+      "tipoDeDano": "Físico",
+      "carril": "Bot"
     }
   }
 ];
