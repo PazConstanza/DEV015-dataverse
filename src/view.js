@@ -13,7 +13,7 @@ export const renderItems = (data) => {
     imgElemento.src = campeona.imageUrl;                //Da la ruta de imagen
     imgElemento.alt = campeona.name;                   //Texto alternativo si no carga la imagen
     imgElemento.width = 300;                          //alto de la imagen
-    imgElemento.height = 200;
+    imgElemento.height = 250;
     imgElemento.classList.add("imagen");           // Asigna una clase "imagen" para utilizarlo con CSS
     imgTarjeta.appendChild(imgElemento);          // Añade la imagen al 'li'
     tarjeta.appendChild(imgTarjeta);           // Añade el 'li' con la imagen a la tarjeta
@@ -26,7 +26,7 @@ export const renderItems = (data) => {
     const información = [     //Se crea un array con la informacion a mmostrar
     campeona.nombre,
     campeona.descripcionCorta,
-    campeona.hechos.frase,
+    '"'+campeona.hechos.frase+'"',
     "Dificultad: "   + campeona.hechos.dificultadDeUso,
     "Tipo de Daño: " + campeona.hechos.tipoDeDano,
     "Carril: "       + campeona.hechos.carril];

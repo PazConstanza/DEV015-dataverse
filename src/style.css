@@ -106,11 +106,12 @@ ul :hover{
    padding: 0px;
    text-align:justify;
    text-align:center;
+   
 }
 
 #elemento3{
     font-size: medium;
-    padding: 0.5rem;
+    padding: 1rem;
     text-align:justify;
     text-align:left;
     font-style: italic;
@@ -131,6 +132,7 @@ ul :hover{
     padding: 0.5rem;
     text-align: justify;
     text-align:left;
+    font-family: baskervville SC;
 }
 
 #elemento6{
@@ -138,4 +140,5 @@ ul :hover{
     padding: 0.5rem;
     text-align: justify;
     text-align:left;
+    font-family: baskervville SC;
 }
