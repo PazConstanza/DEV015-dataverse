@@ -141,10 +141,6 @@ ul :hover{
     padding: 0.5rem;
     text-align: justify;
     text-align:left;
-<<<<<<< HEAD
-    font-family: baskervville SC;
-}
-=======
 }
 
 .inicialOculta { 
@@ -191,4 +187,3 @@ button {
   button:hover {  
     background-color: #666;  
   }
->>>>>>> ce63fbae065aad107c589081d7c84e9b4aac19b7
