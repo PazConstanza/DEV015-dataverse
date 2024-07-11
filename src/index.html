@@ -21,17 +21,47 @@
   <div>
     <h2>¡Bienvenida invocadora! selecciona tu campeona</h2>
 
+    <div class="filtros">
+    
+      <li class="flex-container">
+        <select class= "filterSelect" id="Dificultad">
+          <option value="Dificultad">Selecciona la Dificultad</option>
+          <option value="Baja">Baja</option>
+          <option value="Media">Media</option>
+          <option value="Alta">Alta</option>
+        </select>
+      </li>
   
-
-  <div id="campeonas" class="tarjetas"> </div>
-
+      <li class="flex-container">
+        <select class ="filterSelect" id="Daño">
+          <option value="Daño">Selecciona un Tipo de Daño</option>
+          <option value="Fisico">Fisico</option>
+          <option value="Mágico">Mágico</option>
+        </select>
+      </li>
   
+      <li class="flex-container">
+        <select class="filterSelect" id="Carril">
+          <option value="Carril">Selecciona un Carril</option>
+          <option value="Bot">Bot</option>
+          <option value="Support">Support</option>
+          <option value="Mid">Mid</option>
+          <option value="Jungla">Jungla</option>
+          <option value="Top">Top</option>
+        </select>
+      </li>
+    </div>
 
-  <script src="main.js" type="module"></script>
+    <div id="campeonas" class="tarjetas"> </div>
 
-  <footer>
-    <p>Team DV018 Paz Gutierrez/Gema Riffo</p>
-  </footer>
+
+    <script src="main.js" type="module"></script>
+
+
+
+    <footer>
+      <p>Team DV018 Paz Gutierrez/Gema Riffo</p>
+    </footer>
 </body>
 
 </html>

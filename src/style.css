@@ -141,10 +141,7 @@ ul :hover{
     padding: 0.5rem;
     text-align: justify;
     text-align:left;
-<<<<<<< HEAD
     font-family: baskervville SC;
-}
-=======
 }
 
 .inicialOculta { 
@@ -157,7 +154,7 @@ ul :hover{
 
 #elementoOculto1{
     font-size: medium;
-    padding: 0.5rem;
+    padding: 1rem;
     text-align: justify;
     text-align:left;
 }
@@ -191,4 +188,19 @@ button {
   button:hover {  
     background-color: #666;  
   }
->>>>>>> ce63fbae065aad107c589081d7c84e9b4aac19b7
+
+  .filtros li{
+    display: inline;
+    align-items: center;
+    margin-inline-end: 200px;
+    margin-left: 85px;
+    width: 100%;
+    text-align: center;
+	
+  }
+
+  select {
+    height: 3rem;
+    border-radius: 12px;
+    font-size: 16px;
+  }
