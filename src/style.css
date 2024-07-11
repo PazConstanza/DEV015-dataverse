@@ -107,11 +107,12 @@ ul :hover{
    padding: 0px;
    text-align:justify;
    text-align:center;
+   
 }
 
 #elementoVisible3 {
     font-size: medium;
-    padding: 0.5rem;
+    padding: 1rem;
     text-align:justify;
     text-align:left;
     font-style: italic;
@@ -132,6 +133,7 @@ ul :hover{
     padding: 0.5rem;
     text-align: justify;
     text-align:left;
+    font-family: baskervville SC;
 }
 
 #elementoVisible6{
@@ -139,6 +141,10 @@ ul :hover{
     padding: 0.5rem;
     text-align: justify;
     text-align:left;
+<<<<<<< HEAD
+    font-family: baskervville SC;
+}
+=======
 }
 
 .inicialOculta { 
@@ -185,3 +191,4 @@ button {
   button:hover {  
     background-color: #666;  
   }
+>>>>>>> ce63fbae065aad107c589081d7c84e9b4aac19b7
