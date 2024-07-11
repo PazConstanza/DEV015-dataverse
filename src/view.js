@@ -2,6 +2,7 @@ import dataset from "./data/dataset.js";
 
 
 
+
 export const renderItems = (data) => {
   const tarjetas = data.map(campeona => {
     const tarjeta = document.createElement("ul");  // Crea un elemento "ul" para cada campeona
@@ -13,7 +14,7 @@ export const renderItems = (data) => {
     imgElemento.src = campeona.imageUrl;           // Establece la fuente de la imagen
     imgElemento.alt = campeona.name;               // Texto alternativo si no carga la imagen
     imgElemento.width = 300;                       // Ancho de la imagen
-    imgElemento.height = 200;                      // Alto de la imagen
+    imgElemento.height = 240;                      // Alto de la imagen
     imgElemento.classList.add("imagen");           // Asigna una clase "imagen" para utilizarlo con CSS
     imgTarjeta.appendChild(imgElemento);           // Añade la imagen al 'li'
     tarjeta.appendChild(imgTarjeta);               // Añade el 'li' con la imagen a la tarjeta

@@ -1,9 +1,8 @@
-// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
+// Estas funciones son ejemplos, aquí puedes desarrollar tus propias 
+let campeonas = [campeona];
 
-export const example = () => {
-  return 'example';
-};
 
 export const anotherExample = () => {
   return [];
 };
+
