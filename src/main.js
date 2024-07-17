@@ -60,9 +60,7 @@ tarjetas.forEach(tarjeta => {           // Añade cada tarjeta (ul) al contenedo
     })
 
     
-
-
-
+            //orden por alfabeto
 const filtroOrden = document.getElementById("orden");
 filtroOrden.addEventListener("change", function(){
     const datoSeleccionado = filtroOrden.value;

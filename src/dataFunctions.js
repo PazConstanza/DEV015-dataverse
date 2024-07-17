@@ -30,7 +30,7 @@ export const filterData = (data, filterBy, value) => {
         }
       });
     } else {
-      // Si el sortOrder no es "asc" ni "desc", devolver los datos sin ordenar
+      
       return data;
     }
   };
