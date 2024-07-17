@@ -22,27 +22,27 @@
     <h2>¡Bienvenida invocadora! selecciona tu campeona</h2>
 
     <div class="filtros">
-    
-      <label class="flex-container">
-        <select class= "filterSelect" name="dificultadDeUso" id="Dificultad" data-testid="select-filter">
-          <option value="Dificultad">Selecciona la Dificultad</option>
+
+      <li class="flex-container">
+        <label>Selecciona la dificultad</label>
+        <select class="filterSelect" id="Dificultad">
           <option value="Baja">Baja</option>
           <option value="Media">Media</option>
           <option value="Alta">Alta</option>
         </select>
-      </label>
-  
-      <label class="flex-container">
-        <select class ="filterSelect" name="tipoDeDano" id="Daño" data-testid="select-filter">
-          <option value="Daño">Selecciona un Tipo de Daño</option>
+      </li>
+
+      <li class="flex-container">
+        <label>Selecciona tipo de daño</label>
+        <select class="filterSelect" id="Daño">
           <option value="Fisico">Fisico</option>
           <option value="Mágico">Mágico</option>
         </select>
-      </label>
-  
-      <label class="flex-container">
-        <select class="filterSelect" name="carril" id="Carril" data-testid="select-filter">
-          <option value="Carril">Selecciona un Carril</option>
+      </li>
+
+      <li class="flex-container">
+        <label>Selecciona un carril</label>
+        <select class="filterSelect" id="Carril">
           <option value="Bot">Bot</option>
           <option value="Support">Support</option>
           <option value="Mid">Mid</option>
@@ -52,7 +52,7 @@
       </label>
     </div>
 
-    <div id="campeonas" class="tarjetas"> </div>
+    <div id="root" class="tarjetas"> </div>
 
 
     <script src="main.js" type="module"></script>
