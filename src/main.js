@@ -1,4 +1,4 @@
-import { filterData } from './dataFunctions.js';
+import { filterData, sortData } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
@@ -12,8 +12,8 @@ tarjetas.forEach(tarjeta => {           // Añade cada tarjeta (ul) al contenedo
 });
 
 
-//Los filtros se escuchan... pero no filtran :D falta la funcion
-document.addEventListener("DOMContentLoaded", function () {  //Filtro por dificultad
+
+            //Filtro por dificultad
     const filtroDif = document.getElementById("Dificultad");
     filtroDif.addEventListener("change", function () {
         const datoSeleccionado = filtroDif.value;
@@ -27,8 +27,10 @@ document.addEventListener("DOMContentLoaded", function () {  //Filtro por dificu
         
        
     })
-})
-document.addEventListener("DOMContentLoaded", function () {  //Filtro por tipo de daño
+
+
+
+        //Filtro por tipo de daño
     const filtroDaño = document.getElementById("Daño");
     filtroDaño.addEventListener("change", function () {
         const datoSeleccionado = filtroDaño.value;
@@ -41,8 +43,8 @@ document.addEventListener("DOMContentLoaded", function () {  //Filtro por tipo d
         });
        
     })
-})
-document.addEventListener("DOMContentLoaded", function () {  //Filtro por carril
+
+        //Filtro por carril
     const filtroCarril = document.getElementById("Carril");
     filtroCarril.addEventListener("change", function () {
         const datoSeleccionado = filtroCarril.value;
@@ -58,5 +60,19 @@ document.addEventListener("DOMContentLoaded", function () {  //Filtro por carril
     })
 
     
+
+
+
+const filtroOrden = document.getElementById("orden");
+filtroOrden.addEventListener("change", function(){
+    const datoSeleccionado = filtroOrden.value;
+    let dataOrdenada = sortData (data, "nombre", datoSeleccionado)
+    console.log("dataOrdenada: " + dataOrdenada)
+    let tarjetas = renderItems(dataOrdenada)
+        let TotalTarjetas = document.getElementById("root")
+        TotalTarjetas.innerHTML = "";
+        tarjetas.forEach(tarjeta => {           
+            TotalTarjetas.appendChild(tarjeta)
+        });
 
 })
