@@ -1,6 +1,3 @@
-import dataset from "./data/dataset.js";
-
-
 
 
 export const renderItems = (data) => {
@@ -9,8 +6,8 @@ export const renderItems = (data) => {
     tarjeta.classList.add("tarjeta");              // Asigna una clase "tarjeta" para utilizarlo con CSS
 
     // Imagen de la tarjeta
-    let imgTarjeta = document.createElement("li"); // Crea un elemento "li" que contiene la imagen
-    let imgElemento = document.createElement("img"); // Crea el elemento "img" y se asignan sus atributos
+    const imgTarjeta = document.createElement("li"); // Crea un elemento "li" que contiene la imagen
+    const imgElemento = document.createElement("img"); // Crea el elemento "img" y se asignan sus atributos
     imgElemento.src = campeona.imageUrl;           // Establece la fuente de la imagen
     imgElemento.alt = campeona.name;               // Texto alternativo si no carga la imagen
     imgElemento.width = 300;                       // Ancho de la imagen

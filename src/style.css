@@ -189,7 +189,7 @@ button {
     background-color: #666;  
   }
 
-  .filtros li{
+  .filtros label{
     display: inline;
     align-items: center;
     margin-inline-end: 200px;

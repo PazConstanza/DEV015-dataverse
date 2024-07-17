@@ -23,25 +23,25 @@
 
     <div class="filtros">
     
-      <li class="flex-container">
-        <select class= "filterSelect" id="Dificultad">
+      <label class="flex-container">
+        <select class= "filterSelect" name="dificultadDeUso" id="Dificultad" data-testid="select-filter">
           <option value="Dificultad">Selecciona la Dificultad</option>
           <option value="Baja">Baja</option>
           <option value="Media">Media</option>
           <option value="Alta">Alta</option>
         </select>
-      </li>
+      </label>
   
-      <li class="flex-container">
-        <select class ="filterSelect" id="Daño">
+      <label class="flex-container">
+        <select class ="filterSelect" name="tipoDeDano" id="Daño" data-testid="select-filter">
           <option value="Daño">Selecciona un Tipo de Daño</option>
           <option value="Fisico">Fisico</option>
           <option value="Mágico">Mágico</option>
         </select>
-      </li>
+      </label>
   
-      <li class="flex-container">
-        <select class="filterSelect" id="Carril">
+      <label class="flex-container">
+        <select class="filterSelect" name="carril" id="Carril" data-testid="select-filter">
           <option value="Carril">Selecciona un Carril</option>
           <option value="Bot">Bot</option>
           <option value="Support">Support</option>
@@ -49,7 +49,7 @@
           <option value="Jungla">Jungla</option>
           <option value="Top">Top</option>
         </select>
-      </li>
+      </label>
     </div>
 
     <div id="campeonas" class="tarjetas"> </div>
