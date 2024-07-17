@@ -74,3 +74,12 @@ filtroOrden.addEventListener("change", function(){
         });
 
 })
+
+const resetButton = document.getElementById("reset-button");
+let filtros = document.getElementsByName("filtros");
+//console.log(document.getElementsByName("user-input"))
+function Limpiar() {
+    filtros.value = "";  // Limpiar el textarea
+}
+
+resetButton.addEventListener('click', Limpiar);

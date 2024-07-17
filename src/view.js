@@ -70,6 +70,7 @@ export const renderItems = (data) => {
       }
     });
 
+
     tarjeta.appendChild(btnLeerMas);                     // pone el botón a la tarjeta
 
     return tarjeta;                                      // Retorna el elemento "ul" creado
