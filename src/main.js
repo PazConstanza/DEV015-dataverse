@@ -8,41 +8,8 @@ import data from './data/dataset.js';
 let tarjetas = renderItems(data)  // Llama a "renderItems" para crear las tarjetas a partir de los datos
 let TotalTarjetas = document.getElementById("root") // se obtiene el elemento del DOM donde se agregarán las tarjetas
 tarjetas.forEach(tarjeta => {           // Añade cada tarjeta (ul) al contenedor en el DOM
-  totalTarjetas.appendChild(tarjeta)
+    TotalTarjetas.appendChild(tarjeta)
 });
-
-function onChangeFilter(e) {
-  const filtroDif = document.getElementById("Dificultad").value;
-  const filtroDaño = document.getElementById("Daño").value;
-  const filtroCarril = document.getElementById("Carril").value;
-  const filteredData = filterData(data, filtroDif, filtroDaño, filtroCarril)
-   //Limpiar tarjetas existentes
-  // totalTarjetas.innerHTML = '';
-
-   const tarjetasFiltradas = renderItems(filteredData); 
-    tarjetasFiltradas.forEach(tarjeta => { totalTarjetas.appendChild(tarjeta);
-      
-    });
-  console.log(filtroDaño);
-  console.log(filtroCarril);
-  console.log(filtroDif);
-
-
-}
-
-document.addEventListener("DOMContentLoaded", function () {  
-
-  const filtroDif = document.getElementById("Dificultad"); //Filtro por dificultad
-  filtroDif.addEventListener("change", onChangeFilter);
- 
-
-
-  const filtroDaño = document.getElementById("Daño"); //Filtro por tipo de daño
-  filtroDaño.addEventListener("change", onChangeFilter);
-
-  
-  const filtroCarril = document.getElementById("Carril");//Filtro por carril
-  filtroCarril.addEventListener("change", onChangeFilter);
 
 
 //Los filtros se escuchan... pero no filtran :D falta la funcion
@@ -90,5 +57,6 @@ document.addEventListener("DOMContentLoaded", function () {  //Filtro por carril
 
     })
 
-})
+    
 
+})
