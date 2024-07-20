@@ -45,7 +45,7 @@ export const renderItems = (data) => {
       "Descripción: " + campeona.descripcion,
       "Dato Curioso: " + campeona.hechos.datoCurioso,
       campeona.extraInfo,
-      
+
     ];
 
     infoOculta.forEach((texto, index) => {                // Recorre el array y se crea un <li> para cada elemento
