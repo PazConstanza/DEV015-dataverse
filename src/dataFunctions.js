@@ -2,14 +2,14 @@
 
 
 export const filterData = (data, filterBy, value) => {
-  console.log(filterBy);
+  
   const dataFiltrada = data.filter(campeona => campeona.hechos[filterBy] === value);
-  console.log(dataFiltrada)
+  
   return dataFiltrada;
 };
 
 export const sortData = (data, sortBy, sortOrder) => {
-  let dataOrdenada = data
+  const dataOrdenada = data
   if (sortOrder === "asc") {
     return dataOrdenada.sort((a, b) => {
       if (a[sortBy] > b[sortBy]) {
