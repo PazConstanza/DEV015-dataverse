@@ -5,10 +5,10 @@ import data from './data/dataset.js';
 
 
 //console.log( renderItems(data), data);
-let tarjetas = renderItems(data)  // Llama a "renderItems" para crear las tarjetas a partir de los datos
-let TotalTarjetas = document.getElementById("root") // se obtiene el elemento del DOM donde se agregarán las tarjetas
+const tarjetas = renderItems(data)  // Llama a "renderItems" para crear las tarjetas a partir de los datos
+const TotalTarjetas = document.getElementById("root") // se obtiene el elemento del DOM donde se agregarán las tarjetas
 tarjetas.forEach(tarjeta => {           // Añade cada tarjeta (ul) al contenedor en el DOM
-    TotalTarjetas.appendChild(tarjeta)
+  TotalTarjetas.appendChild(tarjeta)
 });
 
 
@@ -16,14 +16,14 @@ tarjetas.forEach(tarjeta => {           // Añade cada tarjeta (ul) al contenedo
 //Filtro por dificultad
 const filtroDif = document.getElementById("Dificultad");
 filtroDif.addEventListener("change", function () {
-    const datoSeleccionado = filtroDif.value;
-    let dataFiltrada = filterData(data, "dificultadDeUso", datoSeleccionado)
-    let tarjetas = renderItems(dataFiltrada)
-    let TotalTarjetas = document.getElementById("root")
-    TotalTarjetas.innerHTML = "";
-    tarjetas.forEach(tarjeta => {
-        TotalTarjetas.appendChild(tarjeta)
-    });
+  const datoSeleccionado = filtroDif.value;
+  const dataFiltrada = filterData(data, "dificultadDeUso", datoSeleccionado)
+  const tarjetas = renderItems(dataFiltrada)
+  const TotalTarjetas = document.getElementById("root")
+  TotalTarjetas.innerHTML = "";
+  tarjetas.forEach(tarjeta => {
+    TotalTarjetas.appendChild(tarjeta)
+  });
 
 
 })
@@ -33,28 +33,28 @@ filtroDif.addEventListener("change", function () {
 //Filtro por tipo de daño
 const filtroDano = document.getElementById("Daño");
 filtroDano.addEventListener("change", function () {
-    const datoSeleccionado = filtroDano.value;
-    let dataFiltrada = filterData(data, "tipoDeDano", datoSeleccionado)
-    let tarjetas = renderItems(dataFiltrada)
-    let TotalTarjetas = document.getElementById("root")
-    TotalTarjetas.innerHTML = "";
-    tarjetas.forEach(tarjeta => {
-        TotalTarjetas.appendChild(tarjeta)
-    });
+  const datoSeleccionado = filtroDano.value;
+  const dataFiltrada = filterData(data, "tipoDeDano", datoSeleccionado)
+  const tarjetas = renderItems(dataFiltrada)
+  const TotalTarjetas = document.getElementById("root")
+  TotalTarjetas.innerHTML = "";
+  tarjetas.forEach(tarjeta => {
+    TotalTarjetas.appendChild(tarjeta)
+  });
 
 })
 
 //Filtro por carril
 const filtroCarril = document.getElementById("Carril");
 filtroCarril.addEventListener("change", function () {
-    const datoSeleccionado = filtroCarril.value;
-    let dataFiltrada = filterData(data, "carril", datoSeleccionado)
-    let tarjetas = renderItems(dataFiltrada)
-    let TotalTarjetas = document.getElementById("root")
-    TotalTarjetas.innerHTML = "";
-    tarjetas.forEach(tarjeta => {
-        TotalTarjetas.appendChild(tarjeta)
-    });
+  const datoSeleccionado = filtroCarril.value;
+  const dataFiltrada = filterData(data, "carril", datoSeleccionado)
+  const tarjetas = renderItems(dataFiltrada)
+  const TotalTarjetas = document.getElementById("root")
+  TotalTarjetas.innerHTML = "";
+  tarjetas.forEach(tarjeta => {
+    TotalTarjetas.appendChild(tarjeta)
+  });
 
 
 })
@@ -63,33 +63,32 @@ filtroCarril.addEventListener("change", function () {
 //orden por alfabeto
 const filtroOrden = document.getElementById("orden");
 filtroOrden.addEventListener("change", function () {
-    const datoSeleccionado = filtroOrden.value;
-    let dataOrdenada = sortData(data, "nombre", datoSeleccionado)
-    console.log("dataOrdenada: " + dataOrdenada)
-    let tarjetas = renderItems(dataOrdenada)
-    let TotalTarjetas = document.getElementById("root")
-    TotalTarjetas.innerHTML = "";
-    tarjetas.forEach(tarjeta => {
-        TotalTarjetas.appendChild(tarjeta)
-    });
+  const datoSeleccionado = filtroOrden.value;
+  const data2 = [...data];
+  const dataOrdenada = sortData(data2, "nombre", datoSeleccionado)
+  const tarjetas = renderItems(dataOrdenada)
+  const TotalTarjetas = document.getElementById("root")
+  TotalTarjetas.innerHTML = "";
+  tarjetas.forEach(tarjeta => {
+    TotalTarjetas.appendChild(tarjeta)
+  });
 
 })
 
 const resetButton = document.getElementById("reset-button")
 
 resetButton.addEventListener("click", function () {
-    filtroDif.value = "Default"
-    filtroDano.value = "Default"
-    filtroCarril.value = "Default"
-    filtroOrden.value = "Default"
+  filtroDif.value = "Default"
+  filtroDano.value = "Default"
+  filtroCarril.value = "Default"
+  filtroOrden.value = "Default"
 
-    let tarjetas = renderItems(data)
-    console.log("data desde boton: " + data[0].nombre)
-    let TotalTarjetas = document.getElementById("root")
-    TotalTarjetas.innerHTML = "";
-    tarjetas.forEach(tarjeta => {
-        TotalTarjetas.appendChild(tarjeta)
-    });
+  const tarjetas = renderItems(data)
+  const TotalTarjetas = document.getElementById("root")
+  TotalTarjetas.innerHTML = "";
+  tarjetas.forEach(tarjeta => {
+    TotalTarjetas.appendChild(tarjeta)
+  });
 
 
 
