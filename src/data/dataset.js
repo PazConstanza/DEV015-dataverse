@@ -39,7 +39,7 @@ export default [
     "extraInfo": "Illaoi puede sanar una gran cantidad de vida al golpear múltiples objetivos con sus tentáculos.",
     "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Illaoi_0.jpg",
     "facts": {
-      "frase": "La verdad es brutal.",
+      "frase": "La verdad es brutal." ,
       "datoCurioso": "Es una ferviente seguidora del dios de las Islas de Serpiente.",
       "dificultadDeUso": "Media",
       "tipoDeDano": "Físico",
