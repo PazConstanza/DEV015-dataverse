@@ -65,7 +65,7 @@ const filtroOrden = document.getElementById("orden");
 filtroOrden.addEventListener("change", function () {
   const datoSeleccionado = filtroOrden.value;
   const data2 = [...data];
-  const dataOrdenada = sortData(data2, "nombre", datoSeleccionado)
+  const dataOrdenada = sortData(data2, "name", datoSeleccionado)
   const tarjetas = renderItems(dataOrdenada)
   const TotalTarjetas = document.getElementById("root")
   TotalTarjetas.innerHTML = "";

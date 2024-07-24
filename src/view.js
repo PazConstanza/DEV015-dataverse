@@ -17,14 +17,15 @@ export const renderItems = (data) => {
     tarjeta.appendChild(imgTarjeta);               // Añade el 'li' con la imagen a la tarjeta
 
     // Información visible inicialmente
-    const infoTarjeta = document.createElement("li");  // Crea un 'li' que contendrá la información adicional
+    const infoTarjeta = document.createElement("li");
+    tarjeta.classList.add("tarjeta");  // Crea un 'li' que contendrá la información adicional
     const infoVisible = [                             // Se crea un array con la información a mostrar
-      campeona.nombre,
-      campeona.descripcionCorta,
-      campeona.hechos.frase,
-      "Dificultad: " + campeona.hechos.dificultadDeUso,
-      "Tipo de Daño: " + campeona.hechos.tipoDeDano,
-      "Carril: " + campeona.hechos.carril
+      campeona.name,
+      campeona.shortDescription,
+      campeona.facts.frase,
+      "Dificultad: " + campeona.facts.dificultadDeUso,
+      "Tipo de Daño: " + campeona.facts.tipoDeDano,
+      "Carril: " + campeona.facts.carril
     ];
 
     infoVisible.forEach((texto, index) => {             // Recorrer el array y crear un <li> para cada elemento
@@ -42,8 +43,8 @@ export const renderItems = (data) => {
     inicialOculta.style.display = "none";                // Inicialmente oculta
 
     const infoOculta = [                          // Se crea un array con la información oculta
-      "Descripción: " + campeona.descripcion,
-      "Dato Curioso: " + campeona.hechos.datoCurioso,
+      "Descripción: " + campeona.description,
+      "Dato Curioso: " + campeona.facts.datoCurioso,
       campeona.extraInfo,
 
     ];
@@ -59,11 +60,11 @@ export const renderItems = (data) => {
 
     // Creacion boton leer mas y leer menos
     const btnLeerMas = document.createElement("button"); // Crear un botón
-    btnLeerMas.textContent = "Leer más";                 // Asigna un nombre inicial al boton
+    btnLeerMas.textContent = "Leer más";                 // Asigna un name inicial al boton
     btnLeerMas.addEventListener("click", () => {         // Se añade el evento clic al boton
       if (inicialOculta.style.display === "none") {      // Oculta la informacion inicial
         inicialOculta.style.display = "block";           // Muestra la información inicial
-        btnLeerMas.textContent = "Leer menos";           // nombre secundario del boton 
+        btnLeerMas.textContent = "Leer menos";           // name secundario del boton 
       } else {                                           // Si la información inicial está visible
         inicialOculta.style.display = "none";            // Ocultar la información adicional
         btnLeerMas.textContent = "Leer más";             // Cambiar el texto del botón a "Leer más"
