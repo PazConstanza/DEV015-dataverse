@@ -1,80 +1,80 @@
-import { filterData, sortData, computeStats} from '../src/dataFunctions.js';
+import { filterData, sortData, } from '../src/dataFunctions.js';
 import {data as fakeData} from './data.js';
 
-//console.log(fakeData);
+console.log(fakeData);
 
-describe('test orden', () => {
+describe('test orden asc y des en campeonas', () => {
 
-  it('test orden asc', () => {
-   const dataOrden = sortData(fakeData, "name", "asc" )
-    expect(dataOrden[0].name).toBe('Camille');
+  it('al seleccionar asc que ordene las campeonas alfabeticamente  desde A-Z', () => {
+    const ordenAsc = sortData(fakeData, "name","asc")
+    expect(ordenAsc[0].name).toBe('Ahri');
+  }); 
+
+  it('al seleccionar des que ordene las campeonas alfabeticamente desde Z-A', () => {
+    const ordenDesc = sortData(fakeData, "name", "desc" )
+    expect(ordenDesc[0].name).toBe('Soraka');
   });
-
-  it('test orden des', () => {
-    const dataOrden = sortData(fakeData, "name", "des" )
-     expect(dataOrden[0].name).toBe('Miss Fortune');
-   });
 
 });
 
-describe('test filtrosdif', () => {
+describe('al seleccionar diversas opciones de dificultad, tiene que filtrar según selección', () => {
 
-  it('test filtro dificultad', () => {
-    const dataFiltroDificultad = filterData(fakeData,"dificultadDeUso","Baja")
-    expect(dataFiltroDificultad.length).toBe(7);
+  it('test filtro dificultad baja', () => {
+    const dataFiltroDificultad = filterData(fakeData,"dificultadDeUso", "Baja")
+    expect(dataFiltroDificultad.length).toBe(8);
   });
 
-  it('test filtro dificultad', () => {
+  it('test filtro dificultad Media', () => {
     const dataFiltroDifMedia = filterData(fakeData,"dificultadDeUso","Media")
-    expect(dataFiltroDifMedia.length).toBe(8);
+    expect(dataFiltroDifMedia.length).toBe(9);
   });
 
-  it('test filtro dificultad', () => {
+  it('test filtro dificultad Alta', () => {
     const dataFiltroDifAlta= filterData(fakeData,"dificultadDeUso","Alta")
-    expect(dataFiltroDifAlta.length).toBe(6);
+    expect(dataFiltroDifAlta.length).toBe(7);
   });
 
 });
 
-describe('test filtrosDaño', () => {
+describe('al seleccionar distintos tipos de daño, debe filtrar según selección', () => {
 
-  it('test filtro Tipo de Daño', () => {
+  it('test filtro Tipo de Daño Mágico', () => {
     const dataFiltroFisico = filterData(fakeData,"tipoDeDano","Mágico")
-    expect(dataFiltroFisico.length).toBe(13);
+    expect(dataFiltroFisico.length).toBe(14);
   });
 
-  it('test filtro Tipo de Daño', () => {
+  it('test filtro Tipo de Daño Físico', () => {
     const dataFiltroDifMagico = filterData(fakeData,"tipoDeDano","Físico")
-    expect(dataFiltroDifMagico.length).toBe(8);
+    expect(dataFiltroDifMagico.length).toBe(9);
   });
 
 });
 
-describe('test filtroCarril', () => {
+describe('al seleccionar el tipo de carril, debe filtrar según selección', () => {
 
-  it('test filtro Carril', () => {
+  it('test filtro Carril Bot', () => {
     const dataFiltroBot = filterData(fakeData,"carril","Bot")
-    expect(dataFiltroBot.length).toBe(3);
+    expect(dataFiltroBot.length).toBe(4);
   });
 
-  it('test filtro Carril', () => {
+  it('test filtro Carril Support', () => {
     const dataFiltroSupport = filterData(fakeData,"carril","Support")
-    expect(dataFiltroSupport.length).toBe(3);
+    expect(dataFiltroSupport.length).toBe(4);
   });
 
-  it('test filtro Carril', () => {
+  it('test filtro Carril Mid', () => {
     const dataFiltroMid = filterData(fakeData,"carril","Mid")
-    expect(dataFiltroMid.length).toBe(2);
+    expect(dataFiltroMid.length).toBe(3);
   });
 
-  it('test filtro Carril', () => {
+  it('test filtro Carril Jungla', () => {
     const dataFiltroJungla = filterData(fakeData,"carril","Jungla")
-    expect(dataFiltroJungla.length).toBe(3);
+    expect(dataFiltroJungla.length).toBe(4);
   });
 
-  it('test filtro Carril', () => {
+  it('test filtro Carril Top', () => {
     const dataFiltroTop = filterData(fakeData,"carril","Top")
-    expect(dataFiltroTop.length).toBe(3);
+    expect(dataFiltroTop.length).toBe(4);
   });
 
 });
