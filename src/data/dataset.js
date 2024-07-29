@@ -59,7 +59,7 @@ export default [
       "datoCurioso": "Valor es un águila gigante que actúa como sus ojos en el cielo.",
       "dificultadDeUso": "Alta",
       "tipoDeDano": "Físico",
-      "carril": "Top/Bot"
+      "carril": "Bot"
     }
   },
 
@@ -107,7 +107,7 @@ export default [
       "datoCurioso": "Abandonó la orden Kinkou para seguir su propio camino.",
       "dificultadDeUso": "Alta",
       "tipoDeDano": "Mágico",
-      "carril": "Mid/Top"
+      "carril": "Mid"
     }
   },
 
@@ -139,7 +139,7 @@ export default [
       "datoCurioso": "Es miembro de la familia Crownguard de Demacia.",
       "dificultadDeUso": "Baja",
       "tipoDeDano": "Mágico",
-      "carril": "Mid/Support"
+      "carril": "Mid"
     }
   },
 
@@ -219,7 +219,7 @@ export default [
       "datoCurioso": "Es la hermana gemela de Kayle.",
       "dificultadDeUso": "Baja",
       "tipoDeDano": "Mágico",
-      "carril": "Mid/Support"
+      "carril": "Support"
     }
   },
 
@@ -267,7 +267,7 @@ export default [
       "datoCurioso": "Diana fue una vez una fiel seguidora del Solari.",
       "dificultadDeUso": "Media",
       "tipoDeDano": "Mágico",
-      "carril": "Mid/Jungla"
+      "carril": "Mid"
     }
   },
 

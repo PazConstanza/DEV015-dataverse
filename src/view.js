@@ -18,7 +18,7 @@ export const renderItems = (data) => {
 
     // Información visible inicialmente
     const infoTarjeta = document.createElement("li");
-    tarjeta.classList.add("tarjeta");  // Crea un 'li' que contendrá la información adicional
+    tarjeta.classList.add("tarjeta");                // Crea un 'li' que contendrá la información adicional
     const infoVisible = [                             // Se crea un array con la información a mostrar
       campeona.name,
       campeona.shortDescription,
@@ -70,6 +70,8 @@ export const renderItems = (data) => {
         btnLeerMas.textContent = "Leer más";             // Cambiar el texto del botón a "Leer más"
       }
     });
+
+     
 
 
     tarjeta.appendChild(btnLeerMas);                     // pone el botón a la tarjeta

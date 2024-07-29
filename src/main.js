@@ -90,7 +90,11 @@ resetButton.addEventListener("click", function () {
     TotalTarjetas.appendChild(tarjeta)
   });
 
+const conteo = document.getElementById("metricas")
 
+conteo.addEventListener("click", function (){
+
+})
 
 });
 
