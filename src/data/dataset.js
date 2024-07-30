@@ -314,7 +314,7 @@ export default [
       "frase": "El fuego me alimenta.",
       "datoCurioso": "Es mitad dragona, mitad humana.",
       "dificultadDeUso": "Media",
-      "tipoDeDano": "Mixto",
+      "tipoDeDano": "Físico",
       "carril": "Jungla"
     }
   },

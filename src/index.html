@@ -11,21 +11,27 @@
     rel="stylesheet">
 
 </head>
-<header class="titulo">
-  <h1>Femme of Legends</h1>
-</header>
 
 <body>
- 
+
+
+  <header class="titulo">
+    <h1>Femme of Legends</h1>
+  </header>
+
+
+  <main>
+    <h2>¡Bienvenida invocadora! selecciona tu campeona</h2>
+  </main>
 
   <div>
-    <h2>¡Bienvenida invocadora! selecciona tu campeona</h2>
+    
 
     <div class="filtros">
 
       <li class="filtro-data">
-        <label>Selecciona la dificultad</label>
-        <select class="filterSelect" id="Dificultad">
+        <label for="Dificultad">Selecciona la dificultad</label>
+        <select data-testid="select-filter" class="filterSelect" id="Dificultad">
           <option value="Default">Seleccione--</option>
           <option value="Baja">Baja</option>
           <option value="Media">Media</option>
@@ -34,8 +40,8 @@
       </li>
 
       <li class="filtro-data">
-        <label>Selecciona tipo de daño</label>
-        <select class="filterSelect" id="Daño">
+        <label for="Daño">Selecciona tipo de daño</label>
+        <select data-testid="select-filter" class="filterSelect" id="Daño">
           <option value="Default">Seleccione--</option>
           <option value="Físico">Físico</option>
           <option value="Mágico">Mágico</option>
@@ -43,8 +49,8 @@
       </li>
 
       <li class="filtro-data">
-        <label>Selecciona un carril</label>
-        <select class="filterSelect" id="Carril">
+        <label for="Carril">Selecciona un carril</label>
+        <select data-testid="select-filter" class="filterSelect" id="Carril">
           <option value="Default">Seleccione--</option>
           <option value="Bot">Bot</option>
           <option value="Support">Support</option>
@@ -55,32 +61,32 @@
       </li>
 
       <li class="filtro-data">
-        <label>¡Ordena las tarjetas!</label>
-        <select class=" filterOrden" id="orden">
+        <label for="orden">¡Ordena las tarjetas!</label>
+        <select data-testid="select-sort" name="name" class=" filterOrden" id="orden">
           <option value="Default">Seleccione--</option>
           <option value="asc">A-Z</option>
           <option value="desc">Z-A</option>
         </select>
       </li>
 
-      <button id="reset-button">Limpiar</button>
+      <button data-testid="button-clear" id="reset-button">Limpiar</button>
+
 
       <button id="metricas">¿Sabias que?</button>
-
     </div>
 
-
+    <div id="infoMetricas" style="background-color: aliceblue;"></div>
     <div id="root" class="tarjetas"> </div>
 
 
     <script src="main.js" type="module"></script>
 
+  </div>
 
+  <footer>
+    <p>Team DV018 Paz Gutierrez/Gema Riffo</p>
+  </footer>
 
-    <footer>
-      <p>Team DV018 Paz Gutierrez/Gema Riffo</p>
-    </footer>
-    </div>
 </body>
 
 </html>

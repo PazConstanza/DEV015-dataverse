@@ -39,19 +39,23 @@ export const sortData = (data, sortBy, sortOrder) => {
 export const computeStats = (data) => {
   const conteoDano = data.reduce((acumulador, campeona) => {
     if (acumulador[campeona.facts.tipoDeDano]) {
-      acumulador[campeona.facts.tipoDeDano] ++ }
-      else{acumulador[campeona.facts.tipoDeDano] = 1 }
-      return acumulador
-      
-    }) 
+      acumulador[campeona.facts.tipoDeDano]++;
+    } else {
+      acumulador[campeona.facts.tipoDeDano] = 1;
+    }
+    return acumulador;
+  }, {});
 
+  const porcentajes = {};
+  const total = data.length;
 
+  for (const tipo in conteoDano) {
+    porcentajes[tipo] = ((conteoDano[tipo] * 100) / total).toFixed(2);
+  }
 
+  porcentajes["Total"] = total;
 
-
-  //si valor es === físico,
-  // necesito que los sume y el resultado lo devuelva en %
-  //o si no, si el valor es === magico, que lo sume y lo devuelva el %
+  return porcentajes;
 };
 
 
