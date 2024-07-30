@@ -2,9 +2,9 @@
 
 
 export const filterData = (data, filterBy, value) => {
-  
+
   const dataFiltrada = data.filter(campeona => campeona.facts[filterBy] === value);
-  
+
   return dataFiltrada;
 };
 
@@ -35,3 +35,28 @@ export const sortData = (data, sortBy, sortOrder) => {
     return dataOrdenada;
   }
 };
+
+export const computeStats = (data) => {
+  const conteoDano = data.reduce((acumulador, campeona) => {
+    if (acumulador[campeona.facts.tipoDeDano]) {
+      acumulador[campeona.facts.tipoDeDano]++;
+    } else {
+      acumulador[campeona.facts.tipoDeDano] = 1;
+    }
+    return acumulador;
+  }, {});
+
+  const porcentajes = {};
+  const total = data.length;
+
+  for (const tipo in conteoDano) {
+    porcentajes[tipo] = ((conteoDano[tipo] * 100) / total).toFixed(2);
+  }
+
+  porcentajes["Total"] = total;
+
+  return porcentajes;
+};
+
+
+

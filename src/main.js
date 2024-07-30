@@ -1,4 +1,4 @@
-import { filterData, sortData } from './dataFunctions.js';
+import { filterData, sortData, computeStats } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
@@ -82,6 +82,7 @@ resetButton.addEventListener("click", function () {
   filtroDano.value = "Default"
   filtroCarril.value = "Default"
   filtroOrden.value = "Default"
+  
 
   const tarjetas = renderItems(data)
   const TotalTarjetas = document.getElementById("root")
@@ -94,6 +95,12 @@ resetButton.addEventListener("click", function () {
 
 });
 
+const conteo = document.getElementById("metricas")
+conteo.addEventListener("click", function () {
+  const datos = computeStats(data);
+  const infoMetricas = document.getElementById("infoMetricas");
+  infoMetricas.innerHTML = `El ${datos['Físico']}% de estas ${datos['Total']} campeonas, son de daño físico, mientras que el ${datos['Mágico']}% son de daño mágico.`;
+});
 
 
 
