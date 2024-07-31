@@ -12,8 +12,6 @@ export const renderItems = (data) => {
     const imgElemento = document.createElement("img"); // Crea el elemento "img" y se asignan sus atributos
     imgElemento.src = campeona.imageUrl;           // Establece la fuente de la imagen
     imgElemento.alt = campeona.name;               // Texto alternativo si no carga la imagen
-    imgElemento.width = 300;                       // Ancho de la imagen
-    imgElemento.height = 240;                      // Alto de la imagen
     imgElemento.classList.add("imagen");           // Asigna una clase "imagen" para utilizarlo con CSS
     imgElemento.setAttribute("itemprop", "imagen")
     imgTarjeta.appendChild(imgElemento);           // Añade la imagen al 'li'

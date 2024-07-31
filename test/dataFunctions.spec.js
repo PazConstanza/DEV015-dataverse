@@ -1,4 +1,4 @@
-import { filterData, sortData, } from '../src/dataFunctions.js';
+import { filterData, sortData,computeStats } from '../src/dataFunctions.js';
 import {data as fakeData} from './data.js';
 
 
@@ -77,4 +77,14 @@ describe('al seleccionar el tipo de carril, debe filtrar según selección', () 
     expect(dataFiltroTop.length).toBe(4);
   });
 
+});
+
+describe('Dato curioso del porcentaje de campeonas daño fisico y magico', () => {
+
+  it('comparación entre campeonas para sacar el porcentaje de mayor presencia ', () => {
+    const dataPorcentaje = computeStats(fakeData,"Físico", "Mágico")
+    expect(dataPorcentaje.infoMetricas).toBe("Total");
+  });
+
+  
 });
