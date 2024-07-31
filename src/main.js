@@ -82,7 +82,7 @@ resetButton.addEventListener("click", function () {
   filtroDano.value = "Default"
   filtroCarril.value = "Default"
   filtroOrden.value = "Default"
-  
+  infoMetricas.innerHTML= "";
 
   const tarjetas = renderItems(data)
   const TotalTarjetas = document.getElementById("root")
@@ -91,7 +91,7 @@ resetButton.addEventListener("click", function () {
     TotalTarjetas.appendChild(tarjeta)
   });
 
-
+  
 
 });
 
